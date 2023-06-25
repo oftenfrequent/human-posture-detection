@@ -1,0 +1,15 @@
+.env
+
+kaggle.json
+
+dataset-for-classification/
+dataset-small-classes/
+dataset-merged/
+datasets/
+data-csv/
+
+YOGA-DATASET/
+YOGA-DATASET.zip
+
+.DS_Store
+.DS_Store?
