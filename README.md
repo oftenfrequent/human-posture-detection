@@ -3,7 +3,7 @@
 ## Introduction
 This is a pose classification model that explore several different options for determining the pose of a person in an image. The model is trained off a combination of two different datasets publicly available on Kaggle.
 
-1. [Yoga Pose Dataset](https://www.kaggle.com/niharika41298/yoga-poses-dataset)
+1. [Yoga Pose Image Classification Dataset](https://www.kaggle.com/shrutisaxena/yoga-pose-image-classification-dataset)
 2. [Yoga Posture Dataset](https://www.kaggle.com/tr1gg3rtrash/yoga-posture-dataset)
 
 Note: I am awaiting approval for an additional dataset that could make this model more robust. The dataset is available at [Yoga 82](https://sites.google.com/view/yoga-82/home).
@@ -52,18 +52,6 @@ data
 │   │   ├───image_file_...
 ...
 ```
-5. Run `something.py` to generate the keypoints for the images
-```
-python something.py
-```
-6. Run `train.py` to train the model
-```
-python train.py
-```
-7. Run `test.py` to test the model
-```
-python test.py
-```
-
+5. Run through the notebooks in sequential order found in the root directory to generate the keypoints for the images and train models.
 
 

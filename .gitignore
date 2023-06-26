@@ -4,9 +4,7 @@ kaggle.json
 
 dataset-for-classification/
 dataset-small-classes/
-dataset-merged/
-datasets/
-data-csv/
+dataset-no-keypoints/
 data/
 
 YOGA-DATASET/
