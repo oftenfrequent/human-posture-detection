@@ -22,6 +22,7 @@ The following table shows the performance of each model strategy:
 | Keypoint Detection + XGBoostClassifier | 0.50 |
 | Keypoint Detection + RandomForestClassifier | 0.558 |
 | ResNet50 + Transfer Learning | 0.705 |
+| ResNet50 + Transfer Learning + Keypoints | ?¿? |
 
 The best model, a pre-trained ResNet50 model which  is able to achieve a **70% accuracy across 82 different classes**. Given that many of the classes contained less than 100 images, this model generalizes well.
 
@@ -47,17 +48,26 @@ This project is built off of [Detectron2](https://github.com/facebookresearch/de
 ### Installing
 1. Clone the repo
 ```
-git clone
+git clone git@github.com:oftenfrequent/yoga-pose-classification.git
 ```
-2. Install the required packages
+2. Set up Virtual Environment
+```
+python3 -m venv .venv
+source .venv/bin/activate
+
+# or
+pyenv virtualenv 3.8 pose-classifier
+pyenv activate pose-classifier
+```
+3. Install the required packages
 ```
 pip install -r requirements.txt
 ```
-3. Set up environment variables from `.env.example` and update values as needed.
+4. Set up environment variables from `.env.example` and update values as needed.
 ```
 cp .env.example .env
 ```
-4. Download the Datasets via file 
+5. Download the Datasets via file 
 ```
 bash data-download.sh
 ```
@@ -79,6 +89,6 @@ data
 │   │   ├───image_file_...
 ...
 ```
-5. Run through the notebooks in sequential order found in the root directory to generate the keypoints for the images and train models.
+6. Run through the notebooks in sequential order found in the root directory to generate the keypoints for the images and train models.
 
 
