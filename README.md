@@ -19,8 +19,7 @@ The following table shows the performance of each model strategy:
 
 | Model Strategy | Accuracy |
 | --- | --- |
-| Keypoint Detection + XGBoostClassifier | 0.50 |
-| Keypoint Detection + RandomForestClassifier | 0.558 |
+| Keypoint Detection + RandomForestClassifier | 0.599 |
 | ResNet50 + Transfer Learning | 0.705 |
 | ResNet50 + Transfer Learning + Keypoints | ?¿? |
 
