@@ -20,10 +20,10 @@ The following table shows the performance of each model strategy:
 | Model Strategy | Accuracy |
 | --- | --- |
 | Keypoint Detection + RandomForestClassifier | 0.599 |
-| ResNet50 + Transfer Learning | 0.705 |
+| ResNet50 + Transfer Learning | 0.93 |
 | ResNet50 + Transfer Learning + Keypoints | ?¿? |
 
-The best model, a pre-trained ResNet50 model which  is able to achieve a **70% accuracy across 82 different classes**. Given that many of the classes contained less than 100 images, this model generalizes well.
+The best model, a pre-trained ResNet50 model which  is able to achieve a **93% accuracy across 82 different classes**. Given that many of the classes contained less than 100 images, this model generalizes well.
 
 Upon researching some of the misclassified images, it was found in several instances that the model was able to correctly classify the pose, but the image itself was misclassified. This is likely due to the fact that the data was scraped from the web and does not represent the cleanest type of datapoints.
 
